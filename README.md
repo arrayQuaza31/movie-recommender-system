@@ -11,6 +11,7 @@ To create the tags used for recommendation, the following columns were utilized:
 - **Keywords**
 - **Top 3 Cast Members**
 - **Director (Crew)**
+
 These features were combined and preprocessed using **PorterStemmer** for stemming and **CountVectorizer** (BoW technique) for word vectorization.
 
 ## Recommendation Algorithm
